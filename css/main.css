@@ -1,9 +1,58 @@
-/* p {
-  color: blue;
-  font-family: 'Courier New', Courier, monospace;
+/* .datepicker-date-display {
+  background: purple;
 }
 
 
-.primary-text {
-  color: green;
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done {
+  color: purple;
+}
+
+
+.datepicker-table td.is-today {
+  color: purple;
+}
+
+.datepicker-table td.is-selected {
+  background: purple;
+  color: white;
+}
+
+
+.timepicker-digital-display {
+  background: purple;
+}
+
+.timepicker-close {
+  color: purple;
+}
+
+
+.timepicker-digital-display{
+  background: orange;
+}
+
+.timepicker-clear, .timepicker-close {
+color: orange;
+}
+
+.timepicker-tick{
+  color: black;
+}
+
+
+
+.timepicker-canvas line {
+  stroke: orange;
+}
+
+.timepicker-canvas-bg, .timepicker-canvas-bearing {
+  fill: orange;
+}
+
+.timepicker-tick:hover { 
+  background: orange;
 } */
+
+.parallax-container {
+  height: 800px;
+}

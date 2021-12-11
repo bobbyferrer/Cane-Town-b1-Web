@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Custom CSS -->
+ <link rel="stylesheet" href="css/main.css">
+  <title>Cards</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="amber-text">Cards</h1>
+
+    <div class="row">
+      <div class="col s12 m6">
+        <!-- Simnple card without title -->
+         <div class="card">
+           <div class="card-content">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officia alias eveniet, mollitia laborum vitae aliquid sint maiores dolores, cum natus obcaecati. Nihil blanditiis asperiores commodi? Enim aliquid maiores accusamus!</p>
+           </div>
+         </div>
+         <!-- Add color -->
+         <div class="card purple darken-2">
+           <div class="card-content white-text">
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut amet numquam error rem tenetur? Labore quos exercitationem natus doloremque consequuntur, inventore ex molestias quaerat modi distinctio velit possimus impedit eius!</p>
+           </div>
+         </div>
+      </div>
+      <div class="col s12 m6">
+        <!-- Card with Title -->
+        <div class="card">
+          <div class="card-content">
+            <span class="card-title">Card With Title</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, illo alias quam, ut deserunt soluta eligendi nemo eveniet hic libero odio at temporibus, maxime doloremque officiis! Voluptas culpa iusto dolorem!</p>
+          </div>
+          <div class="card-action">
+            <a href="#">Read More</a>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col s12 m6">
+        <!-- Card with image -->
+        <div class="card">
+          <div class="card-image">
+            <img src="img/ktm.jpg" alt="">
+            <span class="card-title">KTM Duke 125</span>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique placeat iste perferendis exercitationem quia animi consequuntur illo et, officia eius quaerat repudiandae dolorem eos illum voluptatum enim aliquam inventore qui!</p>
+          </div>
+          <div class="card-action">
+            <a href="https://www.ktm.com/en-in/models/naked-bike/ktm-125-duke-2020.html" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <!-- Card with image & floating button -->
+        <div class="card blue-grey lighten-4 large">
+          <div class="card-image"">
+            <img src="img/honda.jpg" alt="">
+            <span class="card-title">Honda</span>
+            <a class="btn-floating halfway-fab red waves-effect waves-light">
+              <i class="material-icons">add</i>
+            </a>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique placeat iste perferendis exercitationem quia animi consequuntur illo et, officia eius quaerat repudiandae dolorem eos illum voluptatum enim aliquam inventore qui!</p>
+          </div>
+          <div class="card-action">
+            <a href="https://www.ktm.com/en-in/models/naked-bike/ktm-125-duke-2020.html" target="_blank">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12 m6">
+        <!-- Horizontal -->
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="img/wireframe.jpg" alt="">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <span class="card-title">WireFrame</span>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, non?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <!-- Card reveal -->
+        <div class="card">
+          <div class="card-image waves-effect waves-light waves-block">
+            <img src="img/ktm.jpg" alt="" class="activator">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator">KTM Duke
+              <i class="material-icons right">more_vert</i>
+            </span>
+             <p>
+               <a href="#">Read More</a>
+             </p>
+          </div>
+          <!-- Inside reveal -->
+          <div class="card-reveal">
+            <span class="card-title">KTM Duke
+              <i class="material-icons right">close</i>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum ea, fugit molestiae atque quisquam eius at iusto. Quae dolores, provident rerum vero non iste! Quasi possimus rerum ducimus reiciendis distinctio!</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class="row">
+      <div class="col 12 m6">
+        <div class="card">
+          <div class="card-content"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- End of container -->
+  </div>
+  
+
+
+
+  <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
