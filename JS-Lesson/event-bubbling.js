@@ -17,7 +17,7 @@ const delItem = document.querySelector('.delete-item');
 
 delItem.addEventListener('click', deleteItem);
 
-document.body.addEventListener('click', deleteItem) 
+document.body.addEventListener('click', deleteItem); 
 
 // document.querySelector('.col').addEventListener('click', deleteItem);
 
